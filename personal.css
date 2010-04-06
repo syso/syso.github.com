@@ -1,0 +1,94 @@
+html
+{
+	background: #000000;
+}
+
+body
+{
+	font-family: sans-serif;
+}
+
+#header
+{
+	padding-left: 2em;
+	padding-top: 1em;
+}
+
+#menu:before
+{
+	content: "Quick access:";
+}
+
+#menu a
+{
+	color: #0000ff;
+	text-decoration: none;
+}
+
+#menu a:hover
+{
+	color: #87878F;
+}
+
+
+#menu a:before { content: "["; }
+#menu a:after { content: "]"; }
+
+#menu
+{
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	border-bottom: 0.1em solid #002255;
+	background: #FFFFFF;
+	font-size: 0.8em;
+	line-height: 2em;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0;
+}
+
+#content-wrapper
+{
+	background: #FFFFFF;
+	border: 0.1em solid #002255;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 2em;
+}
+
+
+#content-wrapper h1
+{
+color: #FF4400;
+font-family: Helvetica, Arial, sans-serif;
+margin: 0.5em 0;
+font-size: 3em;
+line-height: 0.5em;
+}
+
+#content-wrapper p
+{
+font-family: Verdana;
+margin: 1.5em  0;
+font-size: 0.9em;
+line-height: 1.5em;
+}
+
+#footer-wrapper
+{
+	margin-left: auto;
+	margin-top: auto;
+	text-align: center;
+	color: #112244;
+	font-size: 0.7em;
+}
+
+
+
+h2 { margin: 0.75em 0; font-size: 2em; line-height: 0.75em; }
+h3 { margin: 0.9em 0; font-size: 1.6667em; line-height: 0.9em; }
+h4 { margin: 1.125em 0; font-size: 1.3333em; line-height: 1.125em; }
+h5 { margin: 1.2857em 0; font-size: 1.1667em; line-height: 1.2857em; }
+h6 { margin: 1.5em 0; font-size: 1em; line-height: 1.5em; }
